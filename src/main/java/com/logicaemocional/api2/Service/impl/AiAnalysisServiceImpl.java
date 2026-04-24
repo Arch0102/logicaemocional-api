@@ -1,8 +1,8 @@
-package com.logicaemocional.api2.Service.Impl;
+package com.logicaemocional.api2.service.Impl;
 
 import com.logicaemocional.api2.Dto.Response.AiAnalysisResponse;
 import com.logicaemocional.api2.Enums.RiskLevel;
-import com.logicaemocional.api2.Service.AiAnalysisService;
+import com.logicaemocional.api2.service.AiAnalysisService;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -31,7 +31,7 @@ public class AiAnalysisServiceImpl implements AiAnalysisService {
             recommendation = "Se recomienda priorizar acompañamiento por parte de un profesional de bienestar.";
         }
 
-        if (text.contains("crisis") || text.contains("urgente") || text.contains("no puedo continuar")) {
+        if (text.contains("no puedo más") || text.contains("no quiero seguir") || text.contains("me quiero rendir")) {
             riskLevel = RiskLevel.CRITICAL;
             factors.add("señal crítica emocional");
             recommendation = "Se recomienda atención prioritaria por parte de un profesional humano.";

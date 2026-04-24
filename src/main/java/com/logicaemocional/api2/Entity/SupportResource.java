@@ -1,23 +1,26 @@
 package com.logicaemocional.api2.Entity;
 
-import com.logicaemocional.api2.Enums.RoleName;
 import jakarta.persistence.*;
 import lombok.*;
 
 @Entity
-@Table(name = "roles")
+@Table(name = "support_resources")
 @Getter
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class Role {
+public class SupportResource {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Enumerated(EnumType.STRING)
-    @Column(nullable = false, unique = true)
-    private RoleName name;
+    private String title;
+
+    private String description;
+
+    private String type;
+
+    private String url;
 }

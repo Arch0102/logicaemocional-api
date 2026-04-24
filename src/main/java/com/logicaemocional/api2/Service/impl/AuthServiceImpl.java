@@ -1,4 +1,4 @@
-package com.logicaemocional.api2.Service.Impl;
+package com.logicaemocional.api2.service.Impl;
 
 import com.logicaemocional.api2.Dto.Request.LoginRequest;
 import com.logicaemocional.api2.Dto.Request.RegisterRequest;
@@ -14,7 +14,7 @@ import com.logicaemocional.api2.Repository.StudentRepository;
 import com.logicaemocional.api2.Repository.UserRepository;
 import com.logicaemocional.api2.Security.CustomUserDetails;
 import com.logicaemocional.api2.Security.JwtService;
-import com.logicaemocional.api2.Service.AuthService;
+import com.logicaemocional.api2.service.AuthService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;

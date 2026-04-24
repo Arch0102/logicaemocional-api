@@ -1,4 +1,4 @@
-package com.logicaemocional.api2.Service;
+package com.logicaemocional.api2.service;
 
 import com.logicaemocional.api2.Dto.Response.AiAnalysisResponse;
 

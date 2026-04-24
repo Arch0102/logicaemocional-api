@@ -1,4 +1,4 @@
-package com.logicaemocional.api2.Service.Impl;
+package com.logicaemocional.api2.service.Impl;
 
 import com.logicaemocional.api2.Dto.Request.EmotionalEntryRequest;
 import com.logicaemocional.api2.Dto.Response.AiAnalysisResponse;
@@ -10,8 +10,8 @@ import com.logicaemocional.api2.Enums.RiskLevel;
 import com.logicaemocional.api2.Repository.EmotionalEntryRepository;
 import com.logicaemocional.api2.Repository.RiskFactorRepository;
 import com.logicaemocional.api2.Repository.StudentRepository;
-import com.logicaemocional.api2.Service.AiAnalysisService;
-import com.logicaemocional.api2.Service.EmotionalEntryService;
+import com.logicaemocional.api2.service.AiAnalysisService;
+import com.logicaemocional.api2.service.EmotionalEntryService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
