@@ -1,0 +1,50 @@
+package com.logicaemocional.api2.Service.Impl;
+
+import com.logicaemocional.api2.Dto.Response.AiAnalysisResponse;
+import com.logicaemocional.api2.Enums.RiskLevel;
+import com.logicaemocional.api2.Service.AiAnalysisService;
+import org.springframework.stereotype.Service;
+
+import java.util.ArrayList;
+import java.util.List;
+
+@Service
+public class AiAnalysisServiceImpl implements AiAnalysisService {
+
+    @Override
+    public AiAnalysisResponse analyzeText(String content) {
+        String text = content.toLowerCase();
+
+        RiskLevel riskLevel = RiskLevel.LOW;
+        List<String> factors = new ArrayList<>();
+        String recommendation = "Se recomienda continuar con hábitos saludables y revisar los recursos de apoyo disponibles.";
+
+        if (text.contains("cansado") || text.contains("agotado") || text.contains("estrés") || text.contains("estres")) {
+            riskLevel = RiskLevel.MEDIUM;
+            factors.add("agotamiento emocional");
+            recommendation = "Se recomienda realizar una pausa activa y considerar hablar con bienestar universitario.";
+        }
+
+        if (text.contains("solo") || text.contains("aislado") || text.contains("nadie")) {
+            riskLevel = RiskLevel.HIGH;
+            factors.add("aislamiento social");
+            recommendation = "Se recomienda priorizar acompañamiento por parte de un profesional de bienestar.";
+        }
+
+        if (text.contains("crisis") || text.contains("urgente") || text.contains("no puedo continuar")) {
+            riskLevel = RiskLevel.CRITICAL;
+            factors.add("señal crítica emocional");
+            recommendation = "Se recomienda atención prioritaria por parte de un profesional humano.";
+        }
+
+        if (factors.isEmpty()) {
+            factors.add("sin factores críticos detectados");
+        }
+
+        return AiAnalysisResponse.builder()
+                .riskLevel(riskLevel)
+                .detectedFactors(factors)
+                .recommendation(recommendation)
+                .build();
+    }
+}
