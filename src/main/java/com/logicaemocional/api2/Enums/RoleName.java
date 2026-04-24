@@ -1,4 +1,4 @@
-package com.logicaemocional.api2.enums;
+package com.logicaemocional.api2.Enums;
 
 public enum RoleName {
     ROLE_STUDENT,
