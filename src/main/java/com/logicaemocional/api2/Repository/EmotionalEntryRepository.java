@@ -1,4 +1,4 @@
-package com.logicaemocional.api.repository;
+package com.logicaemocional.api.Repository;
 
 import com.logicaemocional.api.entity.EmotionalEntry;
 import com.logicaemocional.api.entity.Student;

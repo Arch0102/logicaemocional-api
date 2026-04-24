@@ -1,4 +1,4 @@
-package com.logicaemocional.api.entity;
+package com.logicaemocional.api.Entity;
 
 import jakarta.persistence.*;
 import lombok.*;
