@@ -1,4 +1,4 @@
-package com.logicaemocional.api.controller;
+package com.logicaemocional.api.Controller;
 
 import com.logicaemocional.api.dto.request.EmotionalEntryRequest;
 import com.logicaemocional.api.dto.response.EmotionalEntryResponse;
