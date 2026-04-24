@@ -1,6 +1,6 @@
-package com.logicaemocional.api.Entity;
+package com.logicaemocional.api2.Entity;
 
-import com.logicaemocional.api.enums.RiskLevel;
+import com.logicaemocional.api2.Enums.RiskLevel;
 import jakarta.persistence.*;
 import lombok.*;
 

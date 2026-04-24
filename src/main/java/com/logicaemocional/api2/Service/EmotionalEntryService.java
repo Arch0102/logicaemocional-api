@@ -1,7 +1,7 @@
-package com.logicaemocional.api.Service;
+package com.logicaemocional.api2.service;
 
-import com.logicaemocional.api.dto.request.EmotionalEntryRequest;
-import com.logicaemocional.api.dto.response.EmotionalEntryResponse;
+import com.logicaemocional.api2.Dto.Request.EmotionalEntryRequest;
+import com.logicaemocional.api2.Dto.Response.EmotionalEntryResponse;
 
 import java.util.List;
 

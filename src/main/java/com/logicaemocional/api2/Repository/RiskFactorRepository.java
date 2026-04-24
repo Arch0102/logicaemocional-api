@@ -1,6 +1,6 @@
-package com.logicaemocional.api.Repository;
+package com.logicaemocional.api2.Repository;
 
-import com.logicaemocional.api.entity.RiskFactor;
+import com.logicaemocional.api2.Entity.RiskFactor;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

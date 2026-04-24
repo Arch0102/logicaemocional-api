@@ -1,7 +1,7 @@
 package com.logicaemocional.api2.Repository;
 
-import com.logicaemocional.api2.entity.Role;
-import com.logicaemocional.api2.enums.RoleName;
+import com.logicaemocional.api2.Entity.Role;
+import com.logicaemocional.api2.Enums.RoleName;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

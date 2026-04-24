@@ -1,6 +1,6 @@
 package com.logicaemocional.api2.Repository;
 
-import com.logicaemocional.api2.entity.Student;
+import com.logicaemocional.api2.Entity.Student;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

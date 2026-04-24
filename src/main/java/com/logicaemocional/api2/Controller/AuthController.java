@@ -3,7 +3,7 @@ package com.logicaemocional.api2.Controller;
 import com.logicaemocional.api2.Dto.Request.LoginRequest;
 import com.logicaemocional.api2.Dto.Request.RegisterRequest;
 import com.logicaemocional.api2.Dto.Response.AuthResponse;
-import com.logicaemocional.api2.Service.AuthService;
+import com.logicaemocional.api2.service.AuthService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;

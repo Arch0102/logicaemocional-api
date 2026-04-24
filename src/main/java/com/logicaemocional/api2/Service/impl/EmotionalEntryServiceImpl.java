@@ -1,17 +1,17 @@
-package com.logicaemocional.api.service.impl;
+package com.logicaemocional.api2.service.Impl;
 
-import com.logicaemocional.api.dto.request.EmotionalEntryRequest;
-import com.logicaemocional.api.dto.response.AiAnalysisResponse;
-import com.logicaemocional.api.dto.response.EmotionalEntryResponse;
-import com.logicaemocional.api.entity.EmotionalEntry;
-import com.logicaemocional.api.entity.RiskFactor;
-import com.logicaemocional.api.entity.Student;
-import com.logicaemocional.api.enums.RiskLevel;
-import com.logicaemocional.api.repository.EmotionalEntryRepository;
-import com.logicaemocional.api.repository.RiskFactorRepository;
-import com.logicaemocional.api.repository.StudentRepository;
-import com.logicaemocional.api.service.AiAnalysisService;
-import com.logicaemocional.api.service.EmotionalEntryService;
+import com.logicaemocional.api2.Dto.Request.EmotionalEntryRequest;
+import com.logicaemocional.api2.Dto.Response.AiAnalysisResponse;
+import com.logicaemocional.api2.Dto.Response.EmotionalEntryResponse;
+import com.logicaemocional.api2.Entity.EmotionalEntry;
+import com.logicaemocional.api2.Entity.RiskFactor;
+import com.logicaemocional.api2.Entity.Student;
+import com.logicaemocional.api2.Enums.RiskLevel;
+import com.logicaemocional.api2.Repository.EmotionalEntryRepository;
+import com.logicaemocional.api2.Repository.RiskFactorRepository;
+import com.logicaemocional.api2.Repository.StudentRepository;
+import com.logicaemocional.api2.service.AiAnalysisService;
+import com.logicaemocional.api2.service.EmotionalEntryService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

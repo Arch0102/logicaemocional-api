@@ -1,8 +1,8 @@
-package com.logicaemocional.api.Controller;
+package com.logicaemocional.api2.Controller;
 
-import com.logicaemocional.api.dto.request.EmotionalEntryRequest;
-import com.logicaemocional.api.dto.response.EmotionalEntryResponse;
-import com.logicaemocional.api.service.EmotionalEntryService;
+import com.logicaemocional.api2.Dto.Request.EmotionalEntryRequest;
+import com.logicaemocional.api2.Dto.Response.EmotionalEntryResponse;
+import com.logicaemocional.api2.service.EmotionalEntryService;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;

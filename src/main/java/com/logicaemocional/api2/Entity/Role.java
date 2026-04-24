@@ -1,6 +1,6 @@
 package com.logicaemocional.api2.Entity;
 
-import com.logicaemocional.api2.enums.RoleName;
+import com.logicaemocional.api2.Enums.RoleName;
 import jakarta.persistence.*;
 import lombok.*;
 

@@ -1,6 +1,6 @@
-package com.logicaemocional.api.dto.Response;
+package com.logicaemocional.api2.Dto.Response;
 
-import com.logicaemocional.api.enums.RiskLevel;
+import com.logicaemocional.api2.Enums.RiskLevel;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;

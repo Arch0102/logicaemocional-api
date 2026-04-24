@@ -1,8 +1,8 @@
-package com.logicaemocional.api.Repository;
+package com.logicaemocional.api2.Repository;
 
-import com.logicaemocional.api.entity.EmotionalEntry;
-import com.logicaemocional.api.entity.Student;
-import com.logicaemocional.api.enums.RiskLevel;
+import com.logicaemocional.api2.Entity.EmotionalEntry;
+import com.logicaemocional.api2.Entity.Student;
+import com.logicaemocional.api2.Enums.RiskLevel;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

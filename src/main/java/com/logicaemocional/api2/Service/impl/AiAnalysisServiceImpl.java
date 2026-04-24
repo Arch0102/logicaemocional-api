@@ -1,8 +1,8 @@
-package com.logicaemocional.api.service.impl;
+package com.logicaemocional.api2.service.Impl;
 
-import com.logicaemocional.api.dto.response.AiAnalysisResponse;
-import com.logicaemocional.api.enums.RiskLevel;
-import com.logicaemocional.api.service.AiAnalysisService;
+import com.logicaemocional.api2.Dto.Response.AiAnalysisResponse;
+import com.logicaemocional.api2.Enums.RiskLevel;
+import com.logicaemocional.api2.service.AiAnalysisService;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;

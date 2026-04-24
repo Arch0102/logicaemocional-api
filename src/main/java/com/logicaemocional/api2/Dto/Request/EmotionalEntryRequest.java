@@ -1,4 +1,4 @@
-package com.logicaemocional.api.dto.Request;
+package com.logicaemocional.api2.Dto.Request;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;
